@@ -1,4 +1,4 @@
-// عناصر DOM الأساسية
+// عناصر DOM الأساسي
 const body = document.body;
 const themeSwitcher = document.getElementById('theme-switcher');
 const themeSwitcherMobile = document.getElementById('theme-switcher-mobile');
