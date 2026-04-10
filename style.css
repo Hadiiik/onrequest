@@ -52,6 +52,7 @@ a {
 }
 
 
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -189,6 +190,7 @@ a {
 }
 
 
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -230,6 +232,7 @@ a {
 }
 
 
+
 .btn {
   display: inline-block;
   padding: 0.8rem 1.8rem;
@@ -265,6 +268,7 @@ a {
   transform: translateY(-3px);
   box-shadow: 0 5px 15px var(--shadow-color);
 }
+
 
 
 .hero-section {
@@ -318,6 +322,7 @@ a {
 }
 
 
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -368,6 +373,7 @@ a {
   border-radius: 20px;
   font-size: 0.8rem;
 }
+
 
 
 .projects-container {
@@ -487,6 +493,7 @@ a {
 }
 
 
+
 .about-section {
   display: flex;
   align-items: center;
@@ -533,6 +540,7 @@ a {
   border-radius: 10px;
   box-shadow: 0 5px 15px var(--shadow-color);
 }
+
 
 
 .contact-container {
@@ -731,6 +739,7 @@ a {
 }
 
 
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
@@ -739,6 +748,7 @@ a {
 .fade-in {
   animation: fadeIn 1s ease-out forwards;
 }
+
 
 
 @media (max-width: 992px) {
@@ -813,10 +823,12 @@ a {
 }
 @media (max-width: 768px) {
 
+
     .theme-toggle {
         display: none;
     }
     
+
 
     .theme-toggle-mobile {
         display: block;
@@ -838,6 +850,7 @@ a {
     }
     
  
+ 
     img[loading="lazy"] {
         opacity: 0;
         transition: opacity 0.3s ease;
@@ -850,9 +863,11 @@ a {
 }
 
 
+
 body {
   overflow-x: hidden;
 }
+
 
 
 * {
