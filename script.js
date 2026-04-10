@@ -1,4 +1,4 @@
-// عناصر DOM الأساسية
+// عناصر DOM الأساسي
 const body = document.body;
 const themeSwitcher = document.getElementById('theme-switcher');
 const themeSwitcherMobile = document.getElementById('theme-switcher-mobile');
@@ -8,7 +8,7 @@ const navLinks = document.querySelectorAll('.nav-links a, .sidebar-links a');
 const slides = document.querySelectorAll('.slide');
 const prevButtons = document.querySelectorAll('.prev-slide');
 const nextButtons = document.querySelectorAll('.next-slide');
-
+localStorage.setItem('theme', 'dark');
 // تبديل الوضع الداكن/الفاتح
 function toggleTheme() {
     const isDark = body.getAttribute('data-theme') === 'dark';
